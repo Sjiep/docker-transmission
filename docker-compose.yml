@@ -11,6 +11,6 @@ services:
           - "51413:51413"
           - "51413:51413/udp"
         volumes:
-          - /home/transmission/config:/config
-          - /home/transmission/downloads:/downloads
+          - /home/torrent/config:/config
+          - /home/torrent/downloads:/downloads
         restart: always
