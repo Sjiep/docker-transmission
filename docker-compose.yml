@@ -3,6 +3,7 @@ services:
     transmission:
         build: .
         container_name: transmission
+        # PUID and PGID should be the user that has access to the volumes mentioned below 
         environment: 
           - PUID=1001
           - PGID=1001
